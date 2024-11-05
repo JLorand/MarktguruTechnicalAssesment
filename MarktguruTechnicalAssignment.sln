@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marktguru.API", "Marktguru.API\Marktguru.API.csproj", "{4CF68859-B0A5-4F43-9C42-BC04B3A9000E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4CEE3558-0199-498E-AB9B-41411CC677BF}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		Directory.packages.props = Directory.packages.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marktguru.Application", "Marktguru.Application\Marktguru.Application.csproj", "{1FE6A43F-990C-415F-9869-388A6A087B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marktguru.Infrastructure", "Marktguru.Infrastructure\Marktguru.Infrastructure.csproj", "{00295C86-3282-4D51-B01B-45C6E66AD991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marktguru.Domain", "Marktguru.Domain\Marktguru.Domain.csproj", "{0E47DD1D-67AA-43D8-AF93-8FC5D60173EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CF68859-B0A5-4F43-9C42-BC04B3A9000E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF68859-B0A5-4F43-9C42-BC04B3A9000E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF68859-B0A5-4F43-9C42-BC04B3A9000E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF68859-B0A5-4F43-9C42-BC04B3A9000E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FE6A43F-990C-415F-9869-388A6A087B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE6A43F-990C-415F-9869-388A6A087B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE6A43F-990C-415F-9869-388A6A087B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE6A43F-990C-415F-9869-388A6A087B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00295C86-3282-4D51-B01B-45C6E66AD991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00295C86-3282-4D51-B01B-45C6E66AD991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00295C86-3282-4D51-B01B-45C6E66AD991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00295C86-3282-4D51-B01B-45C6E66AD991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E47DD1D-67AA-43D8-AF93-8FC5D60173EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E47DD1D-67AA-43D8-AF93-8FC5D60173EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E47DD1D-67AA-43D8-AF93-8FC5D60173EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E47DD1D-67AA-43D8-AF93-8FC5D60173EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
